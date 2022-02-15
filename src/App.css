@@ -1,0 +1,46 @@
+pre {
+     overflow: auto;
+     white-space: pre-wrap;
+     /* css-3 */
+     white-space: -moz-pre-wrap;
+     /* Mozilla, since 1999 */
+     white-space: -pre-wrap;
+     /* Opera 4-6 */
+     white-space: -o-pre-wrap;
+     /* Opera 7 */
+     word-wrap: break-word;
+     font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif!important;
+     letter-spacing: 0px;
+     /* Internet Explorer 5.5+ */
+   }
+
+   
+     /* animation */
+     
+     @keyframes slide {
+      0% {transform:translateX(-100%);}
+      100% {transform:translateX(100%);}
+ }
+ @keyframes bounce2 {
+  from{
+    transform: scale(1);
+    opacity: 1;
+  }
+  to{
+    transform: scale(0); opacity: 0;
+  }
+}
+ @keyframes bounce {
+  from{
+    transform: scale(0);
+    opacity: 0;
+  }
+  to{
+    transform: scale(1); opacity: 1;
+  }
+}
+ .particles{
+   position: absolute!important;
+   z-index: 1!important;
+    top: 0important;
+ }
